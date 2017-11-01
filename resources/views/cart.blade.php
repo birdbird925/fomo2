@@ -86,16 +86,16 @@
               <input type="hidden" name="PaymentID" value="100001"> <input type="hidden" name="OrderNumber" value="100001">
               <input type="hidden" name="PaymentDesc" value="Booking No: IJKLMN, Sector: KUL-BKI, First Flight Date: 26 Sep 2012">
               <input type="hidden" name="MerchantName" value="FOMO">
-              <input type="hidden" name="MerchantReturnURL" value="http://rijiaconstruction.com">
-              <input type="hidden" name="MerchantCallbackURL" value="http://rijiaconstruction.com">
-              <input type="hidden" name="Amount" value="228">
+              <input type="hidden" name="MerchantReturnURL" value="https://fomo.watch">
+              <input type="hidden" name="MerchantCallbackURL" value="https://fomo.watch">
+              <input type="hidden" name="Amount" value="228.00">
               {{-- <input type="hidden" name="TaxAmt" value="1"> --}}
               <input type="hidden" name="CurrencyCode" value="MYR">
               <input type="hidden" name="CustIP" value="118.100.6.23">
               <input type="hidden" name="CustName" value="Looi">
               <input type="hidden" name="CustEmail" value="looi@gmail.com">
               <input type="hidden" name="CustPhone" value="60121235678">
-              <input type="hidden" name="HashValue" value="fcd8b6b2ffa8a26d386213b8f23c74e4931d3fe425d804372957a99fc9c1e5f1">
+              <input type="hidden" name="HashValue" value="05e5bf1055246f0864ce0ce74feffc3f33f2e2c91cb77f98831963b6acd3751c">
               <input type="hidden" name="MerchantTermsURL" value="http://merchA.merchdomain.com/terms.html">
               <input type="hidden" name="LanguageCode" value="en">
               <input type="hidden" name="PageTimeout" value="780">
