@@ -9,8 +9,9 @@ use App\FeaturedProduct;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
+        dd($request->ip());
         $slider = Slider::all();
         $featuredProduct = FeaturedProduct::all();
         return view('home', compact('slider', 'featuredProduct'));
