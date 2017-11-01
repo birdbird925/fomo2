@@ -95,7 +95,7 @@
               <input type="hidden" name="CustName" value="Looi">
               <input type="hidden" name="CustEmail" value="looi@gmail.com">
               <input type="hidden" name="CustPhone" value="60121235678">
-              <input type="hidden" name="HashValue" value="05e5bf1055246f0864ce0ce74feffc3f33f2e2c91cb77f98831963b6acd3751c">
+              <input type="hidden" name="HashValue" value="d3045ab1e72e5d56818e2e7623205b7fa223a491ca28a64a9472c80fa0c0ca6c">
               <input type="hidden" name="MerchantTermsURL" value="http://merchA.merchdomain.com/terms.html">
               <input type="hidden" name="LanguageCode" value="en">
               <input type="hidden" name="PageTimeout" value="780">
