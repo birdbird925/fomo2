@@ -89,7 +89,6 @@
               <input type="hidden" name="MerchantReturnURL" value="https://fomo.watch">
               <input type="hidden" name="MerchantCallbackURL" value="https://fomo.watch">
               <input type="hidden" name="Amount" value="228.00">
-              {{-- <input type="hidden" name="TaxAmt" value="1"> --}}
               <input type="hidden" name="CurrencyCode" value="MYR">
               <input type="hidden" name="CustIP" value="118.100.6.23">
               <input type="hidden" name="CustName" value="Looi">
