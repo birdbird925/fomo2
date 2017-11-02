@@ -79,7 +79,7 @@
                 {{ csrf_field() }}
                 <a id="checkout-button" class="checkout">Proceed to checkout</a>
             </form>
-            <form name="frmPayment" method="post" action="https://test2pay.ghl.com/IPGSG/Payment.aspx">
+            {{--<form name="frmPayment" method="post" action="https://test2pay.ghl.com/IPGSG/Payment.aspx">
               <input type="hidden" name="TransactionType" value="SALE">
               <input type="hidden" name="PymtMethod" value="ANY">
               <input type="hidden" name="ServiceID" value="sit">
@@ -100,7 +100,7 @@
               <input type="hidden" name="LanguageCode" value="en">
               <input type="hidden" name="PageTimeout" value="780">
               <input type="submit" value="checkout">
-            </form>
+            </form>--}}
         </div>
         @endif
     </div>
