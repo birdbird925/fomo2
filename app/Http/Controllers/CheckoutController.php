@@ -199,7 +199,7 @@ class CheckoutController extends Controller
     	$webProfile = PayPal::WebProfile();
     	$flowConfig->setLandingPageType("Billing");
         // user_action=commit
-    	$presentation->setLogoImage("http://localhost:8000/images/demo/paypal-logo.svg")->setBrandName("FOMO"); //NB: Paypal recommended to use https for the logo's address and the size set to 190x60.
+    	$presentation->setLogoImage("https://fomo.watch/images/demo/paypal-logo.svg")->setBrandName("FOMO"); //NB: Paypal recommended to use https for the logo's address and the size set to 190x60.
 
     	$webProfile->setName("FOMO".uniqid())
     		->setFlowConfig($flowConfig)
