@@ -83,7 +83,7 @@
               <input type="hidden" name="TransactionType" value="SALE">
               <input type="hidden" name="PymtMethod" value="ANY">
               <input type="hidden" name="ServiceID" value="sit">
-              <input type="hidden" name="PaymentID" value="fomo#ghbag100003"> <input type="hidden" name="OrderNumber" value="fomo#ghbag100003">
+              <input type="hidden" name="PaymentID" value="#unique-orderid-100001"> <input type="hidden" name="OrderNumber" value="#unique-orderid-100001">
               <input type="hidden" name="PaymentDesc" value="Booking No: IJKLMN, Sector: KUL-BKI, First Flight Date: 26 Sep 2012">
               <input type="hidden" name="MerchantName" value="FOMO">
               <input type="hidden" name="MerchantReturnURL" value="https://fomo.watch">
@@ -94,7 +94,7 @@
               <input type="hidden" name="CustName" value="Looi">
               <input type="hidden" name="CustEmail" value="looi@gmail.com">
               <input type="hidden" name="CustPhone" value="60121235678">
-              <input type="hidden" name="HashValue" value="dbffc78cc652a0a0accf733bd3d9c2ac905cdcea1c5dbd008666d24522a1e85e">
+              <input type="hidden" name="HashValue" value="800b1dfe74a1fbe03724bcd0970683227c88984939970ad989a2d6e22096c26b">
               <input type="hidden" name="MerchantTermsURL" value="http://merchA.merchdomain.com/terms.html">
               <input type="hidden" name="LanguageCode" value="en">
               <input type="hidden" name="PageTimeout" value="780">
