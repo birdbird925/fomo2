@@ -12,7 +12,7 @@ Route::any('{query}', function() {
 });
 
 // home
-Route::get('/', 'HomeController@index');
+// Route::get('/', 'HomeController@index');
 Route::get('/comit', function() {
     return 'commit';
 });
