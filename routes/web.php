@@ -1,4 +1,16 @@
 <?php
+Route::post('/early-excess-invite', 'ComingsoonController@register');
+
+Route::get('/coming-soon', 'ComingsoonController@index');
+
+Route::get('/', function() {
+  return redirect('/coming-soon');
+});
+
+Route::any('{query}', function() {
+  return redirect('/coming-soon');
+});
+
 // home
 Route::get('/', 'HomeController@index');
 Route::get('/comit', function() {
