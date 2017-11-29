@@ -30,7 +30,7 @@ class ComingsoonController extends Controller
       else {
         session()->flash('popup', [
             'title' => 'Hooray!',
-            'caption' => 'You been successful signed up for early excess invite!'
+            'caption' => 'Early access is yours! We’ll be in touch.'
         ]);
         DB::table('early_excess_invite_list')->insert(
           ['email' => request()->email]
