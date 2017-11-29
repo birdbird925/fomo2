@@ -109,7 +109,7 @@
       <form action="/early-excess-invite" id="early-excess-invite-form" method="post">
         {{ csrf_field() }}
         <label for="email">Sign up for your early access invite!</label>
-        <input type="email" name="email" placeholder="Enter your email here" autocomplete="off">
+        <input id="emailField" type="email" name="email" placeholder="Enter your email here" autocomplete="off">
         <input type="submit" value="Notify Me">
       </form>
     </div>
@@ -124,5 +124,17 @@
     <script src="/js/admin/sweetalert.min.js"></script>
     @stack('scripts')
     <script src="/js/main.js"></script>
+    <script>
+    $('#early-excess-invite-form').on('submit', function(e){
+       var form = $(this);
+       e.preventDefault();
+       if($('#emailField').val() == ''){
+          $('#emailField').addClass('animated shake');
+       }
+       else {
+          form.submit();
+       }
+    });
+    </script>
 </body>
 </html>
