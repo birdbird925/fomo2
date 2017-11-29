@@ -78,7 +78,7 @@
         color:#e56464;
       }
       #early-excess-invite-form #emailField.empty {
-        border-color: #e56464; 
+        // border-color: #e56464; 
       }
       #early-excess-invite-form input[type=submit] {
         background: transparent;
