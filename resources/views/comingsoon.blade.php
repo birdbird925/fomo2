@@ -106,7 +106,7 @@
       </div>
       <form action="/early-excess-invite" id="early-excess-invite-form" method="post">
         {{ csrf_field() }}
-        <label for="email">Sign up for your early excess invite!</label>
+        <label for="email">Sign up for your early access invite!</label>
         <input type="email" name="email" placeholder="Enter your email here" autocomplete="off">
         <input type="submit" value="Notify Me">
       </form>
