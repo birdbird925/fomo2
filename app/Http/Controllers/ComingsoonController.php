@@ -24,7 +24,7 @@ class ComingsoonController extends Controller
       if($validator->fails()){
         session()->flash('popup', [
             'title' => 'Ermmm',
-            'caption' => 'You had already signed up for early excess invite!'
+            'caption' => 'You had already signed up for early access invite!'
         ]);
       }
       else {
