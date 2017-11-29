@@ -129,7 +129,7 @@
        var form = $(this);
        e.preventDefault();
        if($('#emailField').val() == ''){
-          $('#emailField').addClass('animated shake');
+          $('#emailField').addClass('animated shake empty');
        }
        else {
           form.submit();
