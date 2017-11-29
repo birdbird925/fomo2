@@ -133,6 +133,7 @@
        e.preventDefault();
        if($('#emailField').val() == ''){
           $('#emailField').addClass('animated shake empty');
+          setTimeout(function() { $('#emailField').removeClass('animated shake'); }, 5000);
        }
        else {
           form.submit();
