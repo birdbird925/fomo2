@@ -73,7 +73,7 @@
         color: #CCCCCC;
         font-size: 12px;
       }
-      #early-excess-invite-form #emailFiled.empty::placeholder {
+      #early-excess-invite-form #emailField.empty::placeholder {
         color:#cc3d3d;
       }
       #early-excess-invite-form input[type=submit] {
@@ -113,7 +113,7 @@
         {{ csrf_field() }}
         <label for="email">Sign up for your early access invite!</label>
         <input id="emailField" type="email" name="email" placeholder="Enter your email here" autocomplete="off">
-        <input type="submit" value="Notify Me">
+        <input type="submit" value="Notify Me" id="notify-button">
       </form>
     </div>
 
@@ -128,8 +128,8 @@
     @stack('scripts')
     <script src="/js/main.js"></script>
     <script>
-    $('#early-excess-invite-form').on('submit', function(e){
-       var form = $(this);
+    $('#notify-button').on('click', function(e){
+       var form = $('#early-excess-invite-form');
        e.preventDefault();
        if($('#emailField').val() == ''){
           $('#emailField').addClass('animated shake empty');
