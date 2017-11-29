@@ -74,7 +74,11 @@
         font-size: 12px;
       }
       #early-excess-invite-form #emailField.empty::placeholder {
-        color:#cc3d3d;
+        // color:#cc3d3d;
+        color:#e56464;
+      }
+      #early-excess-invite-form #emailField.empty {
+        border-color: #e56464; 
       }
       #early-excess-invite-form input[type=submit] {
         background: transparent;
